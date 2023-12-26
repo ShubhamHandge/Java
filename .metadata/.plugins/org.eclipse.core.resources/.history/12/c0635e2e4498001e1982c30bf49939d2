@@ -1,0 +1,19 @@
+package Course_ToDo9;
+
+import java.util.Scanner;
+
+public class CourseSerialization_DeSerializationMain {
+	
+	static Scanner coursevalue = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter number of objects :  ");
+		int size = coursevalue.nextInt(); 
+		
+		Course[]  arr =null;
+		Serialization_DeSerializationClass obj = new Serialization_DeSerializationClass();
+		arr=obj.courseInput(size);
+	}
+
+}

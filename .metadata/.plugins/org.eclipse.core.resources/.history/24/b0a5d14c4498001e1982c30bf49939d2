@@ -1,0 +1,25 @@
+/*
+ TODO 9:
+		Write a program that accepts input from user about the number of courses for which the data to be entered.
+		According to that build an array of Course objects with that dimension.
+		
+		Fill the array with Course objects where the information is accepted from user.
+		
+		Serialize the whole array into some file.
+		
+		Write another program to perform de-serialization and display all the course details.
+*/
+package Course_ToDo9;
+
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class Serialization_DeSerializationClass {
+	
+
+		
+		
+	
+	
+
+}
